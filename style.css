@@ -1,0 +1,180 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+hr{
+   color: lightgray;
+}
+.section-1{
+    height: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    margin: 5px;
+}
+.logo-img{
+    height: 50px;
+    margin-top: 20px;
+    width: 115px;
+}
+.section-2{
+    display: flex;
+    align-items: center;
+}
+.any-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.any-btns button{
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: 320px;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    
+}
+.vertical-line{
+    height: 18px;
+    background-color: lightgray;
+    width: 1px;
+    margin: 0 15px;
+}
+.search{
+    margin-left: -30px;
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+    ;
+}
+.sec3-btn1{
+    background-color: white;
+    border:none;
+    /* width: 148px; */
+    padding: 15px;
+    border-radius: 20px;
+    /* height: 20px; */
+}
+.globe{
+    margin-right: 10px;
+}
+.ham-user-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.icon-img{
+    height: 30px;
+   width: 30px;
+   margin-left: 10px;
+}
+.tab{
+    /* width: 24px; */
+    font-size: 10px;
+    text-align: center;
+}
+.right{
+    background-color: white;
+    border:1px solid lightgray ;
+    border-radius: 25px;
+    height: 30px;
+    width: 30px;
+    
+}
+.right svg{
+    margin-left: 2px ;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border:1px solid lightgray ;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.taxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border:1px solid lightgray ;
+    border-radius: 10px;
+    width: 500px;
+    margin: 10px auto;
+    padding-right: 100px;
+}
+.cards{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card p{
+    color: gray;
+}
+.card p,h4{
+    margin: 10px 0;
+}
+.heart{
+    color: transparent;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.map{
+    display: flex;
+    bottom: 20px;
+    left: 45%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 30px;
+    position: fixed;
+
+}
